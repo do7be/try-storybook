@@ -825,6 +825,16 @@
     react-inspector "^2.2.2"
     uuid "^3.2.1"
 
+"@storybook/addon-notes@^3.4.11":
+  version "3.4.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-notes/-/addon-notes-3.4.11.tgz#64676dd628d06447af614693410a26dff80a5a33"
+  integrity sha512-qesu5Bz8U0TLWlgnkB422hGPRaqoiAn+1UkFXynUkygFiYfbRF2zO7bYr1EnmgXgF9UwXjeiy69DDGnUFOqsiA==
+  dependencies:
+    babel-runtime "^6.26.0"
+    marked "^0.3.17"
+    prop-types "^15.6.1"
+    util-deprecate "^1.0.2"
+
 "@storybook/addons@4.0.0-alpha.24":
   version "4.0.0-alpha.24"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.0.0-alpha.24.tgz#941edc181c13fdefdb2c19edc1a1ce02bb9c2ccb"
@@ -834,11 +844,6 @@
     "@storybook/components" "4.0.0-alpha.24"
     global "^4.3.2"
     util-deprecate "^1.0.2"
-
-"@storybook/addons@^3.4.11":
-  version "3.4.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.4.11.tgz#f3e27c46d80ad1f171888c4aad0a19a8a032d072"
-  integrity sha512-Uf01aZ1arcpG1prrrCrBCUYW63lDaoG+r/i3TNo1iG9ZaNc+2UHWeuiEedLfHg0fi/q7UnqMNWDiyO3AkEwwrA==
 
 "@storybook/channel-postmessage@4.0.0-alpha.24":
   version "4.0.0-alpha.24"
@@ -1079,6 +1084,13 @@
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-actions/-/storybook__addon-actions-3.4.1.tgz#8f90d76b023b58ee794170f2fe774a3fddda2c1d"
   integrity sha512-An8pNb1/7QhkdOT8Ht5WjJsSxAh2mWti/J4eILwUHpXVZ1j3xlVaOzwTbg8twN4DjgOAggjEDOj6Bx8YOWh9Pg==
+
+"@types/storybook__addon-notes@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-notes/-/storybook__addon-notes-3.3.3.tgz#621e5a4936b0ba4d505c1a582da2d58e4c8572b9"
+  integrity sha512-mvG644Yh5bR7S03y5MY65YuX7XoG6R7/+l9v2cQH39huK8/pWNmIetGcGBz0RS+1lKBvqtZr55OQyj/9ZCy4jA==
+  dependencies:
+    "@types/react" "*"
 
 "@types/storybook__react@^3.0.9":
   version "3.0.9"
@@ -3983,6 +3995,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+marked@^0.3.17:
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
+  integrity sha512-ea2eGWOqNxPcXv8dyERdSr/6FmzvWwzjMxpfGB/sbMccXoct+xY+YukPD+QTUZwyvK7BZwcr4m21WBOW41pAkg==
 
 md5.js@^1.3.4:
   version "1.3.5"
