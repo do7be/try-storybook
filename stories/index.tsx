@@ -14,5 +14,5 @@ stories.add('with text', withNotes('A very simple component')(() => (
 
 stories.add('with some emoji', () => (
   <Button onClick={action('clicked')}><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-))
+), { notes: 'A very simple component 2' })
 
